@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Age Home Health Care</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background: linear-gradient(rgba(212,175,55,0.85), rgba(212,175,55,0.7)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+            color: #fff;
+            padding: 4rem 1rem 2rem 1rem;
+            text-align: center;
+        }
+        .hero img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 4px solid #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        header {
+            display: none;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+        }
+        h1, h2 {
+            color: #d4af37;
+        }
+        ul {
+            margin: 1rem 0;
+        }
+        .gallery {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        .gallery img {
+            width: 220px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .contact, .hours, .address {
+            margin-top: 2rem;
+        }
+        .staff {
+            background: #f3e9c7;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        .footer {
+            text-align: center;
+            color: #888;
+            margin: 2rem 0 1rem 0;
+        }
+        .cta {
+            background: #d4af37;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            margin: 2rem 0;
+        }
+        a {
+            color: #d4af37;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Caregiver Smiling">
+        <h1>Golden Age Home Health Care LLC</h1>
+        <p style="font-size:1.3rem;">A Happy Life Is Within Reach</p>
+        <p style="font-weight:500;">Reliable & Trustworthy Home Health Care</p>
+    </div>
+    <section>
+        <div class="cta">
+            <strong>Now Serving:</strong> Franklin, Union, Madison, Licking, Fairfield, Delaware, and Pickaway Counties.
+        </div>
+        <h2>Services We Provide</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Home Care">
+            <img src="https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?auto=format&fit=crop&w=400&q=80" alt="Nurse Helping Patient">
+            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80" alt="Family Support">
+        </div>
+        <ul>
+            <li>Homemaker Personal Care (HPC)</li>
+            <li>Non-Medical Transportation (NMT)</li>
+            <li>Intermediate Care Facility</li>
+            <li>Residential Respite</li>
+            <li>Community Respite</li>
+            <li>Supported Living</li>
+            <li>Custom match between care givers and clients</li>
+        </ul>
+        <p>We work directly with our consumers and their families to ensure excellent customer service.</p>
+        <ul>
+            <li>In-home assessment within 12-24 hours</li>
+            <li>Services may start within hours (no waiting list)</li>
+            <li>We provide 5-hour minimum to 24-hour care</li>
+            <li>Competitively priced</li>
+            <li>Office staff and care givers available 24/7</li>
+        </ul>
+        <div class="contact">
+            <h2>For Referrals Call</h2>
+            <p style="font-size:1.2rem;font-weight:600;">+1 614 832-9798<br>+1 614 530-0849</p>
+        </div>
+        <h2>Mission / Vision</h2>
+        <p>Golden Age Home Health Care LLC is the most reliable and trustworthy Home Health Care Service in Central
+            Ohio; the Columbus area - providing excellent home care solutions to patients who are dealing with injury
+            and illness.</p>
+        <p>We are committed to meeting all of your health needs and go above and beyond to ensure you get the best care
+            available.</p>
+        <p>We are committed to improving the quality of life for Ohioans with developmental disabilities and their
+            families, wherever they choose to live, work, and spend their day.</p>
+        <div class="hours">
+            <h2>Office Hours</h2>
+            <ul>
+                <li>Mondays: 9:00am - 5:00pm</li>
+                <li>Tuesday: 9:00am - 5:00pm</li>
+                <li>Wednesday: 9:00am - 5:00pm</li>
+                <li>Thursday: 9:00am - 5:00pm</li>
+                <li>Friday: 9:00am - 5:00pm</li>
+                <li>Saturday: Closed</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+        <div class="address">
+            <h2>Contact & Location</h2>
+            <p>2531 Tiller Ln Suite C5<br>Columbus, Ohio 43231</p>
+            <p>Office: (614) 392-0951<br>Fax: (614) 392-0951</p>
+            <p>Email: <a href="mailto:Goldencarelle10@gmail.com">Goldencarelle10@gmail.com</a></p>
+            <p>Website: <a href="http://www.goldenagehomehealthllc.com"
+                    target="_blank">www.goldenagehomehealthllc.com</a></p>
+        </div>
+        <div class="staff">
+            <h2>Our Staff</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Staff Smiling">
+                <img src="https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=400&q=80" alt="Nurse and Patient">
+            </div>
+            <p>Golden Age Healthcare carefully screens and matches clients and patients with their care giver.</p>
+            <p>Our staff of highly qualified registered nurses, licensed practical nurses, and friendly, experienced,
+                and honest healthcare providers have unique personalities that are sure to gain the confidence of each
+                client.</p>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Serving Ohioans with Developmental Disability and their families</p>
+        <p>&copy; 2025 Golden Age Home Health Care LLC</p>
+    </div>
+</body>
+
+</html>
